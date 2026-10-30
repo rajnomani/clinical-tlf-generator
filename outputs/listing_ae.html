@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Listing 16.2.7 Adverse events (safety population)</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 2rem; }
+table { border-collapse: collapse; font-size: 0.85rem; }
+th, td { padding: 3px 10px; text-align: left; border-bottom: 1px solid #ccc; }
+th { border-bottom: 2px solid #333; }
+p { font-size: 0.85rem; color: #444; }
+</style></head>
+<body>
+<h3>Listing 16.2.7 Adverse events (safety population)</h3>
+<table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Treatment</th>
+      <th>Subject</th>
+      <th>Age/Sex</th>
+      <th>System organ class</th>
+      <th>Preferred term</th>
+      <th>Start day</th>
+      <th>Severity</th>
+      <th>Serious</th>
+      <th>Related</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-004</td>
+      <td>60/F</td>
+      <td>Gastrointestinal disorders</td>
+      <td>Diarrhoea</td>
+      <td>60</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-004</td>
+      <td>60/F</td>
+      <td>Nervous system disorders</td>
+      <td>Dizziness</td>
+      <td>71</td>
+      <td>Severe</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-007</td>
+      <td>50/M</td>
+      <td>Gastrointestinal disorders</td>
+      <td>Nausea</td>
+      <td>83</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-012</td>
+      <td>61/F</td>
+      <td>Gastrointestinal disorders</td>
+      <td>Nausea</td>
+      <td>45</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-019</td>
+      <td>38/F</td>
+      <td>Gastrointestinal disorders</td>
+      <td>Diarrhoea</td>
+      <td>4</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-019</td>
+      <td>38/F</td>
+      <td>Nervous system disorders</td>
+      <td>Dizziness</td>
+      <td>37</td>
+      <td>Severe</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-019</td>
+      <td>38/F</td>
+      <td>Nervous system disorders</td>
+      <td>Headache</td>
+      <td>79</td>
+      <td>Moderate</td>
+      <td>Yes</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-020</td>
+      <td>39/F</td>
+      <td>Skin and subcutaneous tissue disorders</td>
+      <td>Rash</td>
+      <td>5</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-027</td>
+      <td>64/M</td>
+      <td>Gastrointestinal disorders</td>
+      <td>Nausea</td>
+      <td>33</td>
+      <td>Mild</td>
+      <td>Yes</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-027</td>
+      <td>64/M</td>
+      <td>Nervous system disorders</td>
+      <td>Headache</td>
+      <td>61</td>
+      <td>Moderate</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-028</td>
+      <td>44/M</td>
+      <td>Nervous system disorders</td>
+      <td>Dizziness</td>
+      <td>11</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-028</td>
+      <td>44/M</td>
+      <td>Gastrointestinal disorders</td>
+      <td>Diarrhoea</td>
+      <td>71</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-030</td>
+      <td>44/F</td>
+      <td>Nervous system disorders</td>
+      <td>Headache</td>
+      <td>22</td>
+      <td>Moderate</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-033</td>
+      <td>34/M</td>
+      <td>Nervous system disorders</td>
+      <td>Headache</td>
+      <td>18</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-037</td>
+      <td>38/M</td>
+      <td>Gastrointestinal disorders</td>
+      <td>Diarrhoea</td>
+      <td>57</td>
+      <td>Mild</td>
+      <td>Yes</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-041</td>
+      <td>55/M</td>
+      <td>Skin and subcutaneous tissue disorders</td>
+      <td>Rash</td>
+      <td>55</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-047</td>
+      <td>71/F</td>
+      <td>General disorders and administration site conditions</td>
+      <td>Fatigue</td>
+      <td>5</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-048</td>
+      <td>65/F</td>
+      <td>Gastrointestinal disorders</td>
+      <td>Diarrhoea</td>
+      <td>64</td>
+      <td>Severe</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-051</td>
+      <td>41/M</td>
+      <td>Nervous system disorders</td>
+      <td>Headache</td>
+      <td>24</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-053</td>
+      <td>44/F</td>
+      <td>Skin and subcutaneous tissue disorders</td>
+      <td>Rash</td>
+      <td>79</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-053</td>
+      <td>44/F</td>
+      <td>General disorders and administration site conditions</td>
+      <td>Fatigue</td>
+      <td>84</td>
+      <td>Moderate</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-056</td>
+      <td>63/M</td>
+      <td>General disorders and administration site conditions</td>
+      <td>Fatigue</td>
+      <td>73</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-061</td>
+      <td>65/M</td>
+      <td>Nervous system disorders</td>
+      <td>Headache</td>
+      <td>12</td>
+      <td>Mild</td>
+      <td>Yes</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-063</td>
+      <td>85/F</td>
+      <td>Skin and subcutaneous tissue disorders</td>
+      <td>Rash</td>
+      <td>56</td>
+      <td>Moderate</td>
+      <td>Yes</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-065</td>
+      <td>43/F</td>
+      <td>Skin and subcutaneous tissue disorders</td>
+      <td>Rash</td>
+      <td>66</td>
+      <td>Moderate</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-065</td>
+      <td>43/F</td>
+      <td>Gastrointestinal disorders</td>
+      <td>Nausea</td>
+      <td>70</td>
+      <td>Moderate</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-065</td>
+      <td>43/F</td>
+      <td>General disorders and administration site conditions</td>
+      <td>Fatigue</td>
+      <td>72</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-067</td>
+      <td>58/F</td>
+      <td>Skin and subcutaneous tissue disorders</td>
+      <td>Rash</td>
+      <td>64</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-068</td>
+      <td>45/F</td>
+      <td>Gastrointestinal disorders</td>
+      <td>Nausea</td>
+      <td>16</td>
+      <td>Moderate</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-070</td>
+      <td>48/F</td>
+      <td>Nervous system disorders</td>
+      <td>Headache</td>
+      <td>74</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-071</td>
+      <td>53/F</td>
+      <td>Skin and subcutaneous tissue disorders</td>
+      <td>Rash</td>
+      <td>65</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-073</td>
+      <td>57/M</td>
+      <td>Nervous system disorders</td>
+      <td>Headache</td>
+      <td>7</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-073</td>
+      <td>57/M</td>
+      <td>General disorders and administration site conditions</td>
+      <td>Fatigue</td>
+      <td>12</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-075</td>
+      <td>43/F</td>
+      <td>Nervous system disorders</td>
+      <td>Headache</td>
+      <td>72</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-077</td>
+      <td>49/F</td>
+      <td>Nervous system disorders</td>
+      <td>Headache</td>
+      <td>57</td>
+      <td>Moderate</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-079</td>
+      <td>76/M</td>
+      <td>Gastrointestinal disorders</td>
+      <td>Nausea</td>
+      <td>35</td>
+      <td>Moderate</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-080</td>
+      <td>57/F</td>
+      <td>Skin and subcutaneous tissue disorders</td>
+      <td>Rash</td>
+      <td>18</td>
+      <td>Moderate</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-080</td>
+      <td>57/F</td>
+      <td>Respiratory, thoracic and mediastinal disorders</td>
+      <td>Cough</td>
+      <td>40</td>
+      <td>Moderate</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-080</td>
+      <td>57/F</td>
+      <td>General disorders and administration site conditions</td>
+      <td>Fatigue</td>
+      <td>49</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-080</td>
+      <td>57/F</td>
+      <td>Gastrointestinal disorders</td>
+      <td>Diarrhoea</td>
+      <td>78</td>
+      <td>Severe</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-083</td>
+      <td>41/F</td>
+      <td>Nervous system disorders</td>
+      <td>Headache</td>
+      <td>54</td>
+      <td>Moderate</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-083</td>
+      <td>41/F</td>
+      <td>Skin and subcutaneous tissue disorders</td>
+      <td>Rash</td>
+      <td>83</td>
+      <td>Moderate</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-085</td>
+      <td>46/F</td>
+      <td>Gastrointestinal disorders</td>
+      <td>Nausea</td>
+      <td>14</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-087</td>
+      <td>45/F</td>
+      <td>Nervous system disorders</td>
+      <td>Headache</td>
+      <td>4</td>
+      <td>Moderate</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-087</td>
+      <td>45/F</td>
+      <td>Skin and subcutaneous tissue disorders</td>
+      <td>Rash</td>
+      <td>44</td>
+      <td>Severe</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-090</td>
+      <td>66/M</td>
+      <td>Gastrointestinal disorders</td>
+      <td>Nausea</td>
+      <td>17</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-090</td>
+      <td>66/M</td>
+      <td>General disorders and administration site conditions</td>
+      <td>Fatigue</td>
+      <td>79</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-091</td>
+      <td>60/F</td>
+      <td>Gastrointestinal disorders</td>
+      <td>Diarrhoea</td>
+      <td>13</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-095</td>
+      <td>60/M</td>
+      <td>Gastrointestinal disorders</td>
+      <td>Nausea</td>
+      <td>48</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-096</td>
+      <td>50/M</td>
+      <td>Nervous system disorders</td>
+      <td>Dizziness</td>
+      <td>52</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-103</td>
+      <td>58/F</td>
+      <td>Nervous system disorders</td>
+      <td>Dizziness</td>
+      <td>5</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-112</td>
+      <td>39/F</td>
+      <td>Respiratory, thoracic and mediastinal disorders</td>
+      <td>Cough</td>
+      <td>58</td>
+      <td>Mild</td>
+      <td>Yes</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-118</td>
+      <td>42/F</td>
+      <td>Nervous system disorders</td>
+      <td>Headache</td>
+      <td>39</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-118</td>
+      <td>42/F</td>
+      <td>Respiratory, thoracic and mediastinal disorders</td>
+      <td>Cough</td>
+      <td>46</td>
+      <td>Moderate</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Drug X 10 mg</td>
+      <td>TLF-001-119</td>
+      <td>44/M</td>
+      <td>Nervous system disorders</td>
+      <td>Headache</td>
+      <td>64</td>
+      <td>Moderate</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-001</td>
+      <td>57/M</td>
+      <td>General disorders and administration site conditions</td>
+      <td>Fatigue</td>
+      <td>79</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-008</td>
+      <td>41/F</td>
+      <td>Respiratory, thoracic and mediastinal disorders</td>
+      <td>Cough</td>
+      <td>79</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-010</td>
+      <td>49/M</td>
+      <td>Gastrointestinal disorders</td>
+      <td>Nausea</td>
+      <td>57</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-014</td>
+      <td>63/M</td>
+      <td>Nervous system disorders</td>
+      <td>Dizziness</td>
+      <td>84</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-022</td>
+      <td>60/M</td>
+      <td>Respiratory, thoracic and mediastinal disorders</td>
+      <td>Cough</td>
+      <td>51</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-023</td>
+      <td>44/M</td>
+      <td>Nervous system disorders</td>
+      <td>Headache</td>
+      <td>4</td>
+      <td>Severe</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-023</td>
+      <td>44/M</td>
+      <td>Nervous system disorders</td>
+      <td>Dizziness</td>
+      <td>8</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-023</td>
+      <td>44/M</td>
+      <td>General disorders and administration site conditions</td>
+      <td>Fatigue</td>
+      <td>48</td>
+      <td>Moderate</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-026</td>
+      <td>51/F</td>
+      <td>Nervous system disorders</td>
+      <td>Headache</td>
+      <td>56</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-031</td>
+      <td>51/F</td>
+      <td>Nervous system disorders</td>
+      <td>Headache</td>
+      <td>21</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-039</td>
+      <td>49/F</td>
+      <td>Nervous system disorders</td>
+      <td>Headache</td>
+      <td>42</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-045</td>
+      <td>57/M</td>
+      <td>Skin and subcutaneous tissue disorders</td>
+      <td>Rash</td>
+      <td>35</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-060</td>
+      <td>59/F</td>
+      <td>Skin and subcutaneous tissue disorders</td>
+      <td>Rash</td>
+      <td>20</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-062</td>
+      <td>79/F</td>
+      <td>Nervous system disorders</td>
+      <td>Headache</td>
+      <td>19</td>
+      <td>Moderate</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-064</td>
+      <td>60/M</td>
+      <td>Nervous system disorders</td>
+      <td>Dizziness</td>
+      <td>58</td>
+      <td>Moderate</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-066</td>
+      <td>29/F</td>
+      <td>General disorders and administration site conditions</td>
+      <td>Fatigue</td>
+      <td>28</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-072</td>
+      <td>68/F</td>
+      <td>General disorders and administration site conditions</td>
+      <td>Fatigue</td>
+      <td>55</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-074</td>
+      <td>53/M</td>
+      <td>Gastrointestinal disorders</td>
+      <td>Nausea</td>
+      <td>17</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-084</td>
+      <td>43/M</td>
+      <td>Nervous system disorders</td>
+      <td>Dizziness</td>
+      <td>49</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-086</td>
+      <td>81/F</td>
+      <td>Nervous system disorders</td>
+      <td>Headache</td>
+      <td>31</td>
+      <td>Moderate</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-086</td>
+      <td>81/F</td>
+      <td>Gastrointestinal disorders</td>
+      <td>Diarrhoea</td>
+      <td>33</td>
+      <td>Moderate</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-086</td>
+      <td>81/F</td>
+      <td>Gastrointestinal disorders</td>
+      <td>Nausea</td>
+      <td>37</td>
+      <td>Mild</td>
+      <td>Yes</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-088</td>
+      <td>65/M</td>
+      <td>Nervous system disorders</td>
+      <td>Headache</td>
+      <td>25</td>
+      <td>Moderate</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-104</td>
+      <td>71/M</td>
+      <td>Nervous system disorders</td>
+      <td>Headache</td>
+      <td>77</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-106</td>
+      <td>50/F</td>
+      <td>Respiratory, thoracic and mediastinal disorders</td>
+      <td>Cough</td>
+      <td>64</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-109</td>
+      <td>73/F</td>
+      <td>Respiratory, thoracic and mediastinal disorders</td>
+      <td>Cough</td>
+      <td>1</td>
+      <td>Severe</td>
+      <td>No</td>
+      <td>Not related</td>
+    </tr>
+    <tr>
+      <td>Placebo</td>
+      <td>TLF-001-116</td>
+      <td>50/F</td>
+      <td>Nervous system disorders</td>
+      <td>Headache</td>
+      <td>34</td>
+      <td>Mild</td>
+      <td>No</td>
+      <td>Related</td>
+    </tr>
+  </tbody>
+</table>
+<p>One row per adverse event, sorted by treatment, subject and start day. Start day is the study day the event began. All data are synthetic.</p>
+</body></html>

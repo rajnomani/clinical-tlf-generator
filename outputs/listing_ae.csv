@@ -1,0 +1,83 @@
+Treatment,Subject,Age/Sex,System organ class,Preferred term,Start day,Severity,Serious,Related
+Drug X 10 mg,TLF-001-004,60/F,Gastrointestinal disorders,Diarrhoea,60,Mild,No,Not related
+Drug X 10 mg,TLF-001-004,60/F,Nervous system disorders,Dizziness,71,Severe,No,Related
+Drug X 10 mg,TLF-001-007,50/M,Gastrointestinal disorders,Nausea,83,Mild,No,Not related
+Drug X 10 mg,TLF-001-012,61/F,Gastrointestinal disorders,Nausea,45,Mild,No,Not related
+Drug X 10 mg,TLF-001-019,38/F,Gastrointestinal disorders,Diarrhoea,4,Mild,No,Related
+Drug X 10 mg,TLF-001-019,38/F,Nervous system disorders,Dizziness,37,Severe,No,Related
+Drug X 10 mg,TLF-001-019,38/F,Nervous system disorders,Headache,79,Moderate,Yes,Not related
+Drug X 10 mg,TLF-001-020,39/F,Skin and subcutaneous tissue disorders,Rash,5,Mild,No,Related
+Drug X 10 mg,TLF-001-027,64/M,Gastrointestinal disorders,Nausea,33,Mild,Yes,Not related
+Drug X 10 mg,TLF-001-027,64/M,Nervous system disorders,Headache,61,Moderate,No,Not related
+Drug X 10 mg,TLF-001-028,44/M,Nervous system disorders,Dizziness,11,Mild,No,Not related
+Drug X 10 mg,TLF-001-028,44/M,Gastrointestinal disorders,Diarrhoea,71,Mild,No,Not related
+Drug X 10 mg,TLF-001-030,44/F,Nervous system disorders,Headache,22,Moderate,No,Not related
+Drug X 10 mg,TLF-001-033,34/M,Nervous system disorders,Headache,18,Mild,No,Related
+Drug X 10 mg,TLF-001-037,38/M,Gastrointestinal disorders,Diarrhoea,57,Mild,Yes,Not related
+Drug X 10 mg,TLF-001-041,55/M,Skin and subcutaneous tissue disorders,Rash,55,Mild,No,Related
+Drug X 10 mg,TLF-001-047,71/F,General disorders and administration site conditions,Fatigue,5,Mild,No,Not related
+Drug X 10 mg,TLF-001-048,65/F,Gastrointestinal disorders,Diarrhoea,64,Severe,No,Related
+Drug X 10 mg,TLF-001-051,41/M,Nervous system disorders,Headache,24,Mild,No,Not related
+Drug X 10 mg,TLF-001-053,44/F,Skin and subcutaneous tissue disorders,Rash,79,Mild,No,Not related
+Drug X 10 mg,TLF-001-053,44/F,General disorders and administration site conditions,Fatigue,84,Moderate,No,Not related
+Drug X 10 mg,TLF-001-056,63/M,General disorders and administration site conditions,Fatigue,73,Mild,No,Not related
+Drug X 10 mg,TLF-001-061,65/M,Nervous system disorders,Headache,12,Mild,Yes,Related
+Drug X 10 mg,TLF-001-063,85/F,Skin and subcutaneous tissue disorders,Rash,56,Moderate,Yes,Related
+Drug X 10 mg,TLF-001-065,43/F,Skin and subcutaneous tissue disorders,Rash,66,Moderate,No,Related
+Drug X 10 mg,TLF-001-065,43/F,Gastrointestinal disorders,Nausea,70,Moderate,No,Related
+Drug X 10 mg,TLF-001-065,43/F,General disorders and administration site conditions,Fatigue,72,Mild,No,Not related
+Drug X 10 mg,TLF-001-067,58/F,Skin and subcutaneous tissue disorders,Rash,64,Mild,No,Related
+Drug X 10 mg,TLF-001-068,45/F,Gastrointestinal disorders,Nausea,16,Moderate,No,Related
+Drug X 10 mg,TLF-001-070,48/F,Nervous system disorders,Headache,74,Mild,No,Not related
+Drug X 10 mg,TLF-001-071,53/F,Skin and subcutaneous tissue disorders,Rash,65,Mild,No,Not related
+Drug X 10 mg,TLF-001-073,57/M,Nervous system disorders,Headache,7,Mild,No,Related
+Drug X 10 mg,TLF-001-073,57/M,General disorders and administration site conditions,Fatigue,12,Mild,No,Not related
+Drug X 10 mg,TLF-001-075,43/F,Nervous system disorders,Headache,72,Mild,No,Not related
+Drug X 10 mg,TLF-001-077,49/F,Nervous system disorders,Headache,57,Moderate,No,Related
+Drug X 10 mg,TLF-001-079,76/M,Gastrointestinal disorders,Nausea,35,Moderate,No,Related
+Drug X 10 mg,TLF-001-080,57/F,Skin and subcutaneous tissue disorders,Rash,18,Moderate,No,Not related
+Drug X 10 mg,TLF-001-080,57/F,"Respiratory, thoracic and mediastinal disorders",Cough,40,Moderate,No,Not related
+Drug X 10 mg,TLF-001-080,57/F,General disorders and administration site conditions,Fatigue,49,Mild,No,Not related
+Drug X 10 mg,TLF-001-080,57/F,Gastrointestinal disorders,Diarrhoea,78,Severe,No,Not related
+Drug X 10 mg,TLF-001-083,41/F,Nervous system disorders,Headache,54,Moderate,No,Not related
+Drug X 10 mg,TLF-001-083,41/F,Skin and subcutaneous tissue disorders,Rash,83,Moderate,No,Related
+Drug X 10 mg,TLF-001-085,46/F,Gastrointestinal disorders,Nausea,14,Mild,No,Related
+Drug X 10 mg,TLF-001-087,45/F,Nervous system disorders,Headache,4,Moderate,No,Not related
+Drug X 10 mg,TLF-001-087,45/F,Skin and subcutaneous tissue disorders,Rash,44,Severe,No,Related
+Drug X 10 mg,TLF-001-090,66/M,Gastrointestinal disorders,Nausea,17,Mild,No,Not related
+Drug X 10 mg,TLF-001-090,66/M,General disorders and administration site conditions,Fatigue,79,Mild,No,Not related
+Drug X 10 mg,TLF-001-091,60/F,Gastrointestinal disorders,Diarrhoea,13,Mild,No,Related
+Drug X 10 mg,TLF-001-095,60/M,Gastrointestinal disorders,Nausea,48,Mild,No,Not related
+Drug X 10 mg,TLF-001-096,50/M,Nervous system disorders,Dizziness,52,Mild,No,Not related
+Drug X 10 mg,TLF-001-103,58/F,Nervous system disorders,Dizziness,5,Mild,No,Not related
+Drug X 10 mg,TLF-001-112,39/F,"Respiratory, thoracic and mediastinal disorders",Cough,58,Mild,Yes,Related
+Drug X 10 mg,TLF-001-118,42/F,Nervous system disorders,Headache,39,Mild,No,Not related
+Drug X 10 mg,TLF-001-118,42/F,"Respiratory, thoracic and mediastinal disorders",Cough,46,Moderate,No,Not related
+Drug X 10 mg,TLF-001-119,44/M,Nervous system disorders,Headache,64,Moderate,No,Not related
+Placebo,TLF-001-001,57/M,General disorders and administration site conditions,Fatigue,79,Mild,No,Related
+Placebo,TLF-001-008,41/F,"Respiratory, thoracic and mediastinal disorders",Cough,79,Mild,No,Related
+Placebo,TLF-001-010,49/M,Gastrointestinal disorders,Nausea,57,Mild,No,Related
+Placebo,TLF-001-014,63/M,Nervous system disorders,Dizziness,84,Mild,No,Not related
+Placebo,TLF-001-022,60/M,"Respiratory, thoracic and mediastinal disorders",Cough,51,Mild,No,Related
+Placebo,TLF-001-023,44/M,Nervous system disorders,Headache,4,Severe,No,Related
+Placebo,TLF-001-023,44/M,Nervous system disorders,Dizziness,8,Mild,No,Related
+Placebo,TLF-001-023,44/M,General disorders and administration site conditions,Fatigue,48,Moderate,No,Related
+Placebo,TLF-001-026,51/F,Nervous system disorders,Headache,56,Mild,No,Related
+Placebo,TLF-001-031,51/F,Nervous system disorders,Headache,21,Mild,No,Not related
+Placebo,TLF-001-039,49/F,Nervous system disorders,Headache,42,Mild,No,Related
+Placebo,TLF-001-045,57/M,Skin and subcutaneous tissue disorders,Rash,35,Mild,No,Related
+Placebo,TLF-001-060,59/F,Skin and subcutaneous tissue disorders,Rash,20,Mild,No,Not related
+Placebo,TLF-001-062,79/F,Nervous system disorders,Headache,19,Moderate,No,Not related
+Placebo,TLF-001-064,60/M,Nervous system disorders,Dizziness,58,Moderate,No,Not related
+Placebo,TLF-001-066,29/F,General disorders and administration site conditions,Fatigue,28,Mild,No,Related
+Placebo,TLF-001-072,68/F,General disorders and administration site conditions,Fatigue,55,Mild,No,Related
+Placebo,TLF-001-074,53/M,Gastrointestinal disorders,Nausea,17,Mild,No,Related
+Placebo,TLF-001-084,43/M,Nervous system disorders,Dizziness,49,Mild,No,Not related
+Placebo,TLF-001-086,81/F,Nervous system disorders,Headache,31,Moderate,No,Not related
+Placebo,TLF-001-086,81/F,Gastrointestinal disorders,Diarrhoea,33,Moderate,No,Not related
+Placebo,TLF-001-086,81/F,Gastrointestinal disorders,Nausea,37,Mild,Yes,Not related
+Placebo,TLF-001-088,65/M,Nervous system disorders,Headache,25,Moderate,No,Not related
+Placebo,TLF-001-104,71/M,Nervous system disorders,Headache,77,Mild,No,Related
+Placebo,TLF-001-106,50/F,"Respiratory, thoracic and mediastinal disorders",Cough,64,Mild,No,Not related
+Placebo,TLF-001-109,73/F,"Respiratory, thoracic and mediastinal disorders",Cough,1,Severe,No,Not related
+Placebo,TLF-001-116,50/F,Nervous system disorders,Headache,34,Mild,No,Related
