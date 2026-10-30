@@ -1,0 +1,121 @@
+USUBJID,ARM,AGE,SEX,RACE,WEIGHT,SAFFL
+TLF-001-001,Placebo,57,M,Asian,63.7,Y
+TLF-001-002,Placebo,63,F,Asian,51.3,Y
+TLF-001-003,Placebo,51,F,White,59.6,Y
+TLF-001-004,Drug X 10 mg,60,F,Black or African American,67.0,Y
+TLF-001-005,Placebo,47,F,White,83.3,Y
+TLF-001-006,Drug X 10 mg,51,F,Black or African American,96.1,Y
+TLF-001-007,Drug X 10 mg,50,M,White,52.6,Y
+TLF-001-008,Placebo,41,F,White,77.5,Y
+TLF-001-009,Placebo,61,F,Asian,57.4,Y
+TLF-001-010,Placebo,49,M,White,78.6,Y
+TLF-001-011,Drug X 10 mg,55,M,Asian,70.2,Y
+TLF-001-012,Drug X 10 mg,61,F,White,46.4,Y
+TLF-001-013,Drug X 10 mg,60,M,Black or African American,85.0,Y
+TLF-001-014,Placebo,63,M,Asian,63.5,Y
+TLF-001-015,Placebo,54,M,White,64.5,Y
+TLF-001-016,Drug X 10 mg,50,F,Asian,57.0,Y
+TLF-001-017,Drug X 10 mg,54,F,White,62.8,Y
+TLF-001-018,Placebo,35,M,Asian,78.0,Y
+TLF-001-019,Drug X 10 mg,38,F,Black or African American,69.4,Y
+TLF-001-020,Drug X 10 mg,39,F,Asian,76.6,Y
+TLF-001-021,Drug X 10 mg,43,F,Other,77.1,Y
+TLF-001-022,Placebo,60,M,Black or African American,90.5,Y
+TLF-001-023,Placebo,44,M,White,67.2,Y
+TLF-001-024,Drug X 10 mg,50,F,White,51.3,Y
+TLF-001-025,Placebo,71,M,White,86.9,Y
+TLF-001-026,Placebo,51,F,Black or African American,67.4,Y
+TLF-001-027,Drug X 10 mg,64,M,Asian,87.6,Y
+TLF-001-028,Drug X 10 mg,44,M,White,77.4,Y
+TLF-001-029,Drug X 10 mg,53,F,Asian,70.2,Y
+TLF-001-030,Drug X 10 mg,44,F,White,76.9,Y
+TLF-001-031,Placebo,51,F,Asian,99.3,Y
+TLF-001-032,Placebo,65,M,White,101.1,Y
+TLF-001-033,Drug X 10 mg,34,M,White,73.0,Y
+TLF-001-034,Placebo,60,M,Asian,74.2,Y
+TLF-001-035,Placebo,58,M,White,87.1,Y
+TLF-001-036,Placebo,48,F,White,60.2,Y
+TLF-001-037,Drug X 10 mg,38,M,White,76.7,Y
+TLF-001-038,Placebo,56,F,Asian,71.6,Y
+TLF-001-039,Placebo,49,F,White,76.4,Y
+TLF-001-040,Placebo,58,M,Black or African American,60.3,Y
+TLF-001-041,Drug X 10 mg,55,M,Asian,49.7,Y
+TLF-001-042,Placebo,74,F,Asian,43.0,Y
+TLF-001-043,Drug X 10 mg,52,M,Asian,56.4,Y
+TLF-001-044,Drug X 10 mg,43,M,White,65.6,Y
+TLF-001-045,Placebo,57,M,Asian,67.9,Y
+TLF-001-046,Drug X 10 mg,58,M,White,99.1,Y
+TLF-001-047,Drug X 10 mg,71,F,White,87.5,Y
+TLF-001-048,Drug X 10 mg,65,F,Asian,58.5,Y
+TLF-001-049,Placebo,59,F,Black or African American,76.9,Y
+TLF-001-050,Placebo,73,M,White,66.3,Y
+TLF-001-051,Drug X 10 mg,41,M,Asian,68.0,Y
+TLF-001-052,Drug X 10 mg,47,F,Asian,74.6,Y
+TLF-001-053,Drug X 10 mg,44,F,Asian,80.7,Y
+TLF-001-054,Placebo,50,F,Asian,67.3,Y
+TLF-001-055,Placebo,38,M,Asian,86.9,Y
+TLF-001-056,Drug X 10 mg,63,M,Black or African American,56.0,Y
+TLF-001-057,Drug X 10 mg,52,F,Asian,72.1,Y
+TLF-001-058,Drug X 10 mg,37,F,Asian,108.4,Y
+TLF-001-059,Drug X 10 mg,43,M,White,75.1,Y
+TLF-001-060,Placebo,59,F,White,92.1,Y
+TLF-001-061,Drug X 10 mg,65,M,Black or African American,73.3,Y
+TLF-001-062,Placebo,79,F,White,80.1,Y
+TLF-001-063,Drug X 10 mg,85,F,Asian,71.2,Y
+TLF-001-064,Placebo,60,M,Asian,69.6,Y
+TLF-001-065,Drug X 10 mg,43,F,Other,61.1,Y
+TLF-001-066,Placebo,29,F,White,78.0,Y
+TLF-001-067,Drug X 10 mg,58,F,Other,60.1,Y
+TLF-001-068,Drug X 10 mg,45,F,Asian,81.3,Y
+TLF-001-069,Drug X 10 mg,50,F,Black or African American,87.2,Y
+TLF-001-070,Drug X 10 mg,48,F,White,77.1,Y
+TLF-001-071,Drug X 10 mg,53,F,Asian,68.0,Y
+TLF-001-072,Placebo,68,F,White,78.4,Y
+TLF-001-073,Drug X 10 mg,57,M,White,67.7,Y
+TLF-001-074,Placebo,53,M,Asian,85.1,Y
+TLF-001-075,Drug X 10 mg,43,F,Asian,46.4,Y
+TLF-001-076,Placebo,35,F,Black or African American,67.3,Y
+TLF-001-077,Drug X 10 mg,49,F,Asian,44.1,Y
+TLF-001-078,Placebo,54,M,Asian,51.1,Y
+TLF-001-079,Drug X 10 mg,76,M,Asian,91.1,Y
+TLF-001-080,Drug X 10 mg,57,F,Asian,84.5,Y
+TLF-001-081,Placebo,67,F,Black or African American,61.9,Y
+TLF-001-082,Placebo,49,F,White,51.0,Y
+TLF-001-083,Drug X 10 mg,41,F,Asian,40.0,Y
+TLF-001-084,Placebo,43,M,Other,64.4,Y
+TLF-001-085,Drug X 10 mg,46,F,Black or African American,105.9,Y
+TLF-001-086,Placebo,81,F,Asian,78.1,Y
+TLF-001-087,Drug X 10 mg,45,F,Black or African American,64.2,Y
+TLF-001-088,Placebo,65,M,Asian,78.5,Y
+TLF-001-089,Placebo,44,F,Other,50.1,Y
+TLF-001-090,Drug X 10 mg,66,M,White,67.8,Y
+TLF-001-091,Drug X 10 mg,60,F,White,73.4,Y
+TLF-001-092,Placebo,53,M,Asian,70.8,Y
+TLF-001-093,Placebo,55,F,Black or African American,83.1,Y
+TLF-001-094,Placebo,47,M,Asian,76.8,Y
+TLF-001-095,Drug X 10 mg,60,M,Asian,81.4,Y
+TLF-001-096,Drug X 10 mg,50,M,Asian,62.4,Y
+TLF-001-097,Drug X 10 mg,40,M,White,84.6,Y
+TLF-001-098,Placebo,40,M,Asian,94.8,Y
+TLF-001-099,Placebo,57,M,Black or African American,58.4,Y
+TLF-001-100,Placebo,74,M,White,59.6,Y
+TLF-001-101,Drug X 10 mg,57,F,Asian,90.7,Y
+TLF-001-102,Placebo,54,M,Asian,69.3,Y
+TLF-001-103,Drug X 10 mg,58,F,Asian,91.7,Y
+TLF-001-104,Placebo,71,M,White,65.8,Y
+TLF-001-105,Placebo,58,F,Black or African American,92.4,Y
+TLF-001-106,Placebo,50,F,Asian,73.8,Y
+TLF-001-107,Placebo,68,M,Black or African American,75.6,Y
+TLF-001-108,Drug X 10 mg,60,F,Asian,93.9,Y
+TLF-001-109,Placebo,73,F,Black or African American,66.9,Y
+TLF-001-110,Placebo,57,F,Black or African American,58.8,Y
+TLF-001-111,Placebo,40,F,White,65.7,Y
+TLF-001-112,Drug X 10 mg,39,F,White,78.3,Y
+TLF-001-113,Placebo,75,F,Black or African American,50.1,Y
+TLF-001-114,Placebo,76,F,Asian,80.9,Y
+TLF-001-115,Drug X 10 mg,53,F,Asian,64.5,Y
+TLF-001-116,Placebo,50,F,Asian,88.1,Y
+TLF-001-117,Drug X 10 mg,73,M,White,40.0,Y
+TLF-001-118,Drug X 10 mg,42,F,White,61.0,Y
+TLF-001-119,Drug X 10 mg,44,M,White,48.4,Y
+TLF-001-120,Placebo,63,M,Black or African American,60.4,Y

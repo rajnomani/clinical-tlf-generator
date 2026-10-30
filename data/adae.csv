@@ -1,0 +1,83 @@
+USUBJID,AEBODSYS,AEDECOD,AESEV,AESER,AEREL,AESTDY
+TLF-001-001,General disorders and administration site conditions,Fatigue,MILD,N,RELATED,79
+TLF-001-004,Nervous system disorders,Dizziness,SEVERE,N,RELATED,71
+TLF-001-004,Gastrointestinal disorders,Diarrhoea,MILD,N,NOT RELATED,60
+TLF-001-007,Gastrointestinal disorders,Nausea,MILD,N,NOT RELATED,83
+TLF-001-008,"Respiratory, thoracic and mediastinal disorders",Cough,MILD,N,RELATED,79
+TLF-001-010,Gastrointestinal disorders,Nausea,MILD,N,RELATED,57
+TLF-001-012,Gastrointestinal disorders,Nausea,MILD,N,NOT RELATED,45
+TLF-001-014,Nervous system disorders,Dizziness,MILD,N,NOT RELATED,84
+TLF-001-019,Nervous system disorders,Headache,MODERATE,Y,NOT RELATED,79
+TLF-001-019,Nervous system disorders,Dizziness,SEVERE,N,RELATED,37
+TLF-001-019,Gastrointestinal disorders,Diarrhoea,MILD,N,RELATED,4
+TLF-001-020,Skin and subcutaneous tissue disorders,Rash,MILD,N,RELATED,5
+TLF-001-022,"Respiratory, thoracic and mediastinal disorders",Cough,MILD,N,RELATED,51
+TLF-001-023,Nervous system disorders,Headache,SEVERE,N,RELATED,4
+TLF-001-023,Nervous system disorders,Dizziness,MILD,N,RELATED,8
+TLF-001-023,General disorders and administration site conditions,Fatigue,MODERATE,N,RELATED,48
+TLF-001-026,Nervous system disorders,Headache,MILD,N,RELATED,56
+TLF-001-027,Nervous system disorders,Headache,MODERATE,N,NOT RELATED,61
+TLF-001-027,Gastrointestinal disorders,Nausea,MILD,Y,NOT RELATED,33
+TLF-001-028,Nervous system disorders,Dizziness,MILD,N,NOT RELATED,11
+TLF-001-028,Gastrointestinal disorders,Diarrhoea,MILD,N,NOT RELATED,71
+TLF-001-030,Nervous system disorders,Headache,MODERATE,N,NOT RELATED,22
+TLF-001-031,Nervous system disorders,Headache,MILD,N,NOT RELATED,21
+TLF-001-033,Nervous system disorders,Headache,MILD,N,RELATED,18
+TLF-001-037,Gastrointestinal disorders,Diarrhoea,MILD,Y,NOT RELATED,57
+TLF-001-039,Nervous system disorders,Headache,MILD,N,RELATED,42
+TLF-001-041,Skin and subcutaneous tissue disorders,Rash,MILD,N,RELATED,55
+TLF-001-045,Skin and subcutaneous tissue disorders,Rash,MILD,N,RELATED,35
+TLF-001-047,General disorders and administration site conditions,Fatigue,MILD,N,NOT RELATED,5
+TLF-001-048,Gastrointestinal disorders,Diarrhoea,SEVERE,N,RELATED,64
+TLF-001-051,Nervous system disorders,Headache,MILD,N,NOT RELATED,24
+TLF-001-053,General disorders and administration site conditions,Fatigue,MODERATE,N,NOT RELATED,84
+TLF-001-053,Skin and subcutaneous tissue disorders,Rash,MILD,N,NOT RELATED,79
+TLF-001-056,General disorders and administration site conditions,Fatigue,MILD,N,NOT RELATED,73
+TLF-001-060,Skin and subcutaneous tissue disorders,Rash,MILD,N,NOT RELATED,20
+TLF-001-061,Nervous system disorders,Headache,MILD,Y,RELATED,12
+TLF-001-062,Nervous system disorders,Headache,MODERATE,N,NOT RELATED,19
+TLF-001-063,Skin and subcutaneous tissue disorders,Rash,MODERATE,Y,RELATED,56
+TLF-001-064,Nervous system disorders,Dizziness,MODERATE,N,NOT RELATED,58
+TLF-001-065,Gastrointestinal disorders,Nausea,MODERATE,N,RELATED,70
+TLF-001-065,General disorders and administration site conditions,Fatigue,MILD,N,NOT RELATED,72
+TLF-001-065,Skin and subcutaneous tissue disorders,Rash,MODERATE,N,RELATED,66
+TLF-001-066,General disorders and administration site conditions,Fatigue,MILD,N,RELATED,28
+TLF-001-067,Skin and subcutaneous tissue disorders,Rash,MILD,N,RELATED,64
+TLF-001-068,Gastrointestinal disorders,Nausea,MODERATE,N,RELATED,16
+TLF-001-070,Nervous system disorders,Headache,MILD,N,NOT RELATED,74
+TLF-001-071,Skin and subcutaneous tissue disorders,Rash,MILD,N,NOT RELATED,65
+TLF-001-072,General disorders and administration site conditions,Fatigue,MILD,N,RELATED,55
+TLF-001-073,Nervous system disorders,Headache,MILD,N,RELATED,7
+TLF-001-073,General disorders and administration site conditions,Fatigue,MILD,N,NOT RELATED,12
+TLF-001-074,Gastrointestinal disorders,Nausea,MILD,N,RELATED,17
+TLF-001-075,Nervous system disorders,Headache,MILD,N,NOT RELATED,72
+TLF-001-077,Nervous system disorders,Headache,MODERATE,N,RELATED,57
+TLF-001-079,Gastrointestinal disorders,Nausea,MODERATE,N,RELATED,35
+TLF-001-080,Gastrointestinal disorders,Diarrhoea,SEVERE,N,NOT RELATED,78
+TLF-001-080,General disorders and administration site conditions,Fatigue,MILD,N,NOT RELATED,49
+TLF-001-080,Skin and subcutaneous tissue disorders,Rash,MODERATE,N,NOT RELATED,18
+TLF-001-080,"Respiratory, thoracic and mediastinal disorders",Cough,MODERATE,N,NOT RELATED,40
+TLF-001-083,Nervous system disorders,Headache,MODERATE,N,NOT RELATED,54
+TLF-001-083,Skin and subcutaneous tissue disorders,Rash,MODERATE,N,RELATED,83
+TLF-001-084,Nervous system disorders,Dizziness,MILD,N,NOT RELATED,49
+TLF-001-085,Gastrointestinal disorders,Nausea,MILD,N,RELATED,14
+TLF-001-086,Nervous system disorders,Headache,MODERATE,N,NOT RELATED,31
+TLF-001-086,Gastrointestinal disorders,Nausea,MILD,Y,NOT RELATED,37
+TLF-001-086,Gastrointestinal disorders,Diarrhoea,MODERATE,N,NOT RELATED,33
+TLF-001-087,Nervous system disorders,Headache,MODERATE,N,NOT RELATED,4
+TLF-001-087,Skin and subcutaneous tissue disorders,Rash,SEVERE,N,RELATED,44
+TLF-001-088,Nervous system disorders,Headache,MODERATE,N,NOT RELATED,25
+TLF-001-090,Gastrointestinal disorders,Nausea,MILD,N,NOT RELATED,17
+TLF-001-090,General disorders and administration site conditions,Fatigue,MILD,N,NOT RELATED,79
+TLF-001-091,Gastrointestinal disorders,Diarrhoea,MILD,N,RELATED,13
+TLF-001-095,Gastrointestinal disorders,Nausea,MILD,N,NOT RELATED,48
+TLF-001-096,Nervous system disorders,Dizziness,MILD,N,NOT RELATED,52
+TLF-001-103,Nervous system disorders,Dizziness,MILD,N,NOT RELATED,5
+TLF-001-104,Nervous system disorders,Headache,MILD,N,RELATED,77
+TLF-001-106,"Respiratory, thoracic and mediastinal disorders",Cough,MILD,N,NOT RELATED,64
+TLF-001-109,"Respiratory, thoracic and mediastinal disorders",Cough,SEVERE,N,NOT RELATED,1
+TLF-001-112,"Respiratory, thoracic and mediastinal disorders",Cough,MILD,Y,RELATED,58
+TLF-001-116,Nervous system disorders,Headache,MILD,N,RELATED,34
+TLF-001-118,Nervous system disorders,Headache,MILD,N,NOT RELATED,39
+TLF-001-118,"Respiratory, thoracic and mediastinal disorders",Cough,MODERATE,N,NOT RELATED,46
+TLF-001-119,Nervous system disorders,Headache,MODERATE,N,NOT RELATED,64
